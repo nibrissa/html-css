@@ -1,0 +1,30 @@
+@font-face{
+	font-family: Roboto;
+	src: url("../fonts/Roboto-Regular.ttf")  format("truetype");
+}
+a{
+	text-decoration: none;
+	color: #0D0000;
+}
+.img1{
+	width: 150px;
+	height: 150px;
+}
+.img1:hover{
+	transform:scale(1.2);
+}
+html{
+	font-family: Roboto;
+	background: url(../img/лого.jpg) no-repeat top left fixed, #D9CDBF;
+}
+
+h1, h2, h3{
+	color: #8C775E;
+}
+#podval{
+	font-style: italic;
+}
+.news{
+	padding-left: 40px;
+	padding-top:10px;
+}
